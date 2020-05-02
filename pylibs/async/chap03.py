@@ -1,6 +1,10 @@
 import asyncio
 import time
 
+"""
+A coroutine is an object that encapsulates the ability to resume an 
+underlying function that has been suspended before completion.
+"""
 
 class QuickStart:
 
