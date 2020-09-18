@@ -1,18 +1,13 @@
 {
     "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorTheme": "Solarized Light",
     "workbench.iconTheme": "vscode-icons",
     "editor.fontFamily": "Consolas",
     "editor.fontSize": 20,
     "editor.fontWeight": "bold",
     "editor.fontLigatures": true,
-
+   
     "breadcrumbs.enabled": false,
-    "python.jediEnabled": false,
-    "python.linting.enabled": false,
-    "python.linting.flake8CategorySeverity.W": "Error",
-    "python.linting.lintOnSave": false,
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.shell.linux": "/bin/bash",
     "vsicons.dontShowNewVersionMessage": true,
@@ -25,7 +20,7 @@
     "git.autofetch": false,
     "git.ignoreMissingGitWarning": true,
 
-    "workbench.colorCustomizations":
+    "workbench.colorCustomizations": 
     {
         "sideBar.foreground": "#000000",
         "editor.foreground": "#000000",
@@ -40,8 +35,8 @@
                     "foreground": "#000000",
                     "fontStyle": "bold"
                 }
-            },
-
+            }, 
+            
             {
                 "scope": "keyword",
                 "settings": {
@@ -65,12 +60,24 @@
         "strings": "#00a098",
         "types": "#da8d00",
         "comments": "#a3a3a3",
-        "semanticHighlighting": true,
         "numbers": "#3e5ce4",
-        "keywords": "#c7006d",
-
+        "keywords": "#c7006d"        
     },
 
     "files.hotExit": "off",
-    "window.restoreWindows": "none"
+    "window.restoreWindows": "none",
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/build": true,
+        "**/node_modules": true
+    },
+
+    "editor.rulers": [80],
+    "editor.semanticTokenColorCustomizations": {"enabled": true}
 }
