@@ -1,0 +1,9 @@
+Design patterns provide some hints about how to solve common problems.
+
+* Creational: outline a number of ways in which objects could be created and
+there lifecycles managed.
+
+* Behavioral: describe how objects interact with each other.
+
+* Structural: describe a variety of ways to add functionality to
+existing objects.
