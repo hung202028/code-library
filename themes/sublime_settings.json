@@ -1,0 +1,32 @@
+{
+    "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).sublime-color-scheme",
+    "folder_exclude_patterns":
+    [
+        ".svn",
+        ".git",
+        ".hg",
+        "CVS",
+        ".idea"
+    ],
+    "font_face": "Consolas",
+    "font_options":
+    [
+        "bold",
+        "no_italic"
+    ],
+    "font_size": 20,
+    "hot_exit": false,
+    "ignored_packages":
+    [
+        "Vintage"
+    ],
+    "remember_open_files": false,
+    "rulers":
+    [
+        80
+    ],
+    "theme": "Adaptive.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": "false"
+}
