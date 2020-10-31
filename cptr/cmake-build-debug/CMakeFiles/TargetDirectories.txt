@@ -1,3 +1,0 @@
-/Users/hung/Git/code-library/cptr/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/hung/Git/code-library/cptr/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/hung/Git/code-library/cptr/cmake-build-debug/CMakeFiles/cptr.dir
