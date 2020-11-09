@@ -4,8 +4,10 @@
 #include "chap3.h"
 #include "chap4.h"
 #include "chap5.h"
+#include "chap6.h"
+#include "chap8.h"
 
 int main() {
-    c5_run();
+    c8_run();
     return 0;
 }

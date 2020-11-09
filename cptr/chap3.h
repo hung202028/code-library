@@ -15,11 +15,13 @@
 // 3. stack and base pointer: used by runtime system to manage the stack
 
 int *_c3_ex1(size_t size, int value) {
-    int arr[size];
-    for (size_t i = 0; i < size; ++i) {
-        arr[i] = value;
-    }
-    return arr;
+//    int arr[size];
+//    for (size_t i = 0; i < size; ++i) {
+//        arr[i] = value;
+//    }
+//    return arr;
+
+    return 0;
 }
 
 int *_c3_ex2(size_t size, int value) {
