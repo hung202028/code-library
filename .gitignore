@@ -142,3 +142,7 @@ clibs/.project
 clibs/.settings/
 
 *.user
+
+clibs/.idea
+clibs/CMakeLists.txt
+clibs/cmake-build-debug/
