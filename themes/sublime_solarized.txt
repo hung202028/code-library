@@ -7,23 +7,24 @@
         "base02":  "#073642",
         "base01":  "#586e75",
         //"base00":  "#657b83",
-        "base00": "#161b1d",
+        //"base00": "#161b1d",
+        "base00":  "#254d74",
         "base0":   "#839496",
         "base1":   "#93a1a1",
         "base2":   "#eee8d5",
         "base3":   "#fdf6e3",
       //"yellow":  "#b58900",
-      	"yellow":  "#8a340f",
+        "yellow":  "#8a340f",
       //"orange":  "#cb4b16",
-      	"orange":  "#8a340f",
+        "orange":  "#8a340f",
         "red":     "#dc322f",
         "magenta": "#d33682",
         "violet":  "#6c71c4",
         "blue":    "#268bd2",
       //"cyan":    "#2aa198",
-      	"cyan":    "#1f7a72",
+        "cyan":    "#1f7a72",
       //"green":   "#859900",
-      	"green":   "#6f8000",
+        "green":   "#6f8000",
         "key_word": "#b30047",
         "built_in": "#9933ff"
     },
@@ -198,7 +199,7 @@
         {
             "name": "Tag start/end",
             "scope": "punctuation.definition.tag.html, punctuation.definition.tag.begin, punctuation.definition.tag.end",
-            "foreground": "var(base1)"
+            "foreground": "#996600"
         },
         {
             "name": "Library function",
