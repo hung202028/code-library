@@ -146,3 +146,6 @@ clibs/.settings/
 clibs/.idea
 clibs/CMakeLists.txt
 clibs/cmake-build-debug/
+
+*.out
+*.o
