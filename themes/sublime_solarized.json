@@ -17,22 +17,23 @@
         "magenta": "#d33682",
         "violet":  "#6c71c4",
         "blue":    "#0066f1f7a72f",
-        "cyan":    "#",
+        "cyan":    "#0E6655",
         "green":   "#336600",
-        "key_word": "#b30047",
+        "key_word": "chocolate",
         "built_in": "#bb372a",
-        "black": "#171b1c",
+        "light_black": "#34495E",
         "attribute": "#cc5200",
         "tag": "#cc3300",
         "line_number": "#a6a6a6",
         "user_const": "#cc0066",
-        "double_quote": "#cc5200"
+        "double_quote": "#154360",
+        "brackets": "#34495E"
     },
 
     "globals":
     {
         "background": "var(base3)",
-        "foreground": "var(black)",
+        "foreground": "var(light_black)",
         "line_highlight": "var(base2)",
         "gutter": "var(base2)",
         "gutter_foreground": "var(line_number)",
@@ -96,17 +97,17 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Variable",
             "scope": "variable",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Variable Function",
             "scope": "variable.function",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Variable Language",
@@ -131,7 +132,7 @@
         {
             "name": "Arithmetical Operators",
             "scope": "keyword.operator.arithmetic",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Storage",
@@ -166,12 +167,12 @@
         {
             "name": "Function name",
             "scope": "entity.name.function",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Variable start",
             "scope": "punctuation.definition.variable",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Built-in constant",
@@ -245,12 +246,12 @@
         {
             "name": "[]",
             "scope": "meta.brace.square, punctuation.section.brackets",
-            "foreground": "var(yellow)"
+            "foreground": "var(brackets)"
         },
         {
             "name": "(),{}",
             "scope": "meta.brace.round, meta.brace.curly, punctuation.section, punctuation.section.block, punctuation.definition.parameters, punctuation.section.group",
-            "foreground": "var(black)"
+            "foreground": "var(brackets)"
         },
         {
             "name": "CSS: Standard color value",
@@ -260,7 +261,7 @@
         {
             "name": "CSS: Selector > [] and non-spec tags",
             "scope": "meta.selector.css",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "CSS: Tag",
@@ -315,12 +316,12 @@
         {
             "name": "JavaScript: :symbol",
             "scope": "constant.other.symbol.js",
-            "foreground": "var(black)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "JavaScript: Special Method",
             "scope": "keyword.other.special-method.js",
-            "foreground": "var(orange)"
+            "foreground": "var(yellow)"
         },
 
         {
@@ -332,7 +333,7 @@
         {
             "name": "C: Preprocessor",
             "scope": "entity.name.function.preprocessor.c, meta.preprocessor.c.include, meta.preprocessor.macro.c",
-            "foreground": "var(orange)"
+            "foreground": "var(yellow)"
         },
 
         {
@@ -349,7 +350,7 @@
         {
             "name": "Other: Add",
             "scope": "other.add",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "Tex: {}",
@@ -454,7 +455,7 @@
         {
             "name": "Perl: functions",
             "scope": "support.function.perl",
-            "foreground": "var(black)"
+            "foreground": "var(light_black)"
         },
         {
             "name": "diff: header",
@@ -474,7 +475,7 @@
         {
             "name": "diff: changed",
             "scope": "markup.changed",
-            "foreground": "var(orange)"
+            "foreground": "var(yellow)"
         },
         {
             "name": "diff: inserted",
