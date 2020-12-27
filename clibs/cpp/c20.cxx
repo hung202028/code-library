@@ -24,10 +24,18 @@ void common_math() { // using <cmath> header
 
 void cast() {
     double a = 2.13;
-    double b = 3.24;
+    double b = 3.44;
 
     int c = static_cast<int>(a + b);
     std::cout << c << std::endl;
+
+    a = 10.9;
+    b = 15.9;
+
+    c = static_cast<int> (a + b); // 26
+    int d = static_cast<int> (a) + static_cast<int> (b); // 25
+
+    std::cout << c << " " << d << std::endl;
 }
 
 
