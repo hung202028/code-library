@@ -20,7 +20,8 @@
     "workbench.activityBar.visible": false,
     "workbench.colorCustomizations": {
         "sideBar.foreground": "#000000",
-        "editor.foreground": "#000000"
+        "editor.foreground": "#000000",
+        "editor.selectionBackground": "#cacaca"
     },
 
     "files.hotExit": "off",
