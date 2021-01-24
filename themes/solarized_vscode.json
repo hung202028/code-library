@@ -1,0 +1,61 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.idea": true,
+        "**/build": true,
+        "**/node_modules": true
+    },
+    
+    "workbench.colorTheme": "Solarized Light",
+    "editor.fontSize": 20,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "Consolas",
+    "editor.rulers": [
+        80
+    ],
+    "workbench.activityBar.visible": false,
+    "workbench.colorCustomizations": {
+        "sideBar.foreground": "#000000",
+        "editor.foreground": "#000000"
+    },
+
+    "files.hotExit": "off",
+    "window.restoreWindows": "none",
+    "editor.fontWeight": "bold",
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+           {
+            "scope": ["comment", "comment.block.*", "comment.line"],
+            "settings": {
+                //"foreground": "#8a8a8a",
+                "fontStyle": ""
+            }
+           },
+
+
+          {
+            "name": "[Python] Function Parameter Special",
+            "scope": [
+              "source.python meta.function.parameters variable.parameter.function.language.special.self",
+              "variable.language.special.self"
+            ],
+            "settings": {
+              "foreground": "#cc5200"
+            }
+          }
+        ],
+
+        "functions": "#994d00",
+        "comments": "#999999",
+        "numbers": "#000000",
+        "class": "#00802b",
+        "types": "#cc8500",
+        "keywords": "#996600"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "extensions.ignoreRecommendations": true
+}
